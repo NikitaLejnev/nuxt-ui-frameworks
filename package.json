@@ -20,12 +20,16 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-n": "^15.1.0",
     "eslint-plugin-promise": "^6.0.0",
+    "foundation-sites": "^6.7.4",
+    "jquery": "^3.6.0",
+    "motion-ui": "^2.0.3",
     "nuxt": "^2.15.8",
     "typescript": "^4.6.3",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0",
+    "what-input": "^5.2.10"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
