@@ -1,0 +1,49 @@
+{
+  "root": true,
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "requireConfigFile": false,
+    "sourceType": "module"
+  },
+
+  "extends": [
+    "@nuxtjs",
+    "plugin:nuxt/recommended",
+    "prettier",
+    "hardcore",
+    "hardcore/node"
+  ],
+
+  "plugins": [],
+
+  // add your custom rules here
+  "rules": {
+    "strict": "off",
+    "quotes": "off",
+
+    "eslint-comments/no-use": ["error", { "allow": ["eslint"] }]
+  },
+
+  "overrides": [
+    {
+      "files": ["pages/**/*.vue", "layouts/*.vue"],
+
+      "rules": {
+        "vue/multi-word-component-names": "off"
+      }
+    },
+    {
+      "files": ["pages/**/*.vue", "layouts/**/*.vue"],
+
+      "rules": {
+        "import/unambiguous": "off"
+      }
+    }
+  ]
+}

@@ -10,7 +10,9 @@
 </template>
 
 <script>
-export default {
+const component = {
   name: 'IndexPage',
 }
+
+export default component
 </script>
