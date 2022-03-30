@@ -68,7 +68,6 @@
 </template>
 
 <script>
-/* eslint id-length: ["error", { "exceptions": ["$"] }] */
 import $ from 'jquery'
 
 const component = {

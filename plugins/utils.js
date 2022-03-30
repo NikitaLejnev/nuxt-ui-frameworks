@@ -1,4 +1,3 @@
-/* eslint no-undef: off */
 /* eslint no-console: off */
 import Vue from 'vue'
 

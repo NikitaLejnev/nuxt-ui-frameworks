@@ -6,6 +6,8 @@
     "node": true
   },
 
+  "globals": { "Foundation": "readonly" },
+
   "parserOptions": {
     "parser": "@babel/eslint-parser",
     "requireConfigFile": false,
@@ -26,7 +28,9 @@
   "rules": {
     "strict": "off",
     "quotes": "off",
-    "eslint-comments/no-use": ["error", { "allow": ["eslint"] }]
+    "eslint-comments/no-use": ["error", { "allow": ["eslint"] }],
+    "id-length": ["error", { "exceptions": ["$"] }],
+    "import/unambiguous": "off"
   },
 
   "overrides": [
@@ -35,13 +39,6 @@
 
       "rules": {
         "vue/multi-word-component-names": "off"
-      }
-    },
-    {
-      "files": ["pages/**/*.vue", "layouts/**/*.vue"],
-
-      "rules": {
-        "import/unambiguous": "off"
       }
     }
   ]
