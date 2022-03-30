@@ -26,7 +26,6 @@
   "rules": {
     "strict": "off",
     "quotes": "off",
-
     "eslint-comments/no-use": ["error", { "allow": ["eslint"] }]
   },
 
