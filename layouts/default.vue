@@ -8,3 +8,13 @@
     <Nuxt />
   </div>
 </template>
+
+<script>
+const component = {
+  mounted() {
+    this.$getCurrentScreenSize()
+  },
+}
+
+export default component
+</script>
